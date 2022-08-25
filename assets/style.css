@@ -2,24 +2,38 @@
     box-sizing: border-box;
 }
 
+:root {
+    --headfoot: black;
+    --background: black;
+    --namebackground: #2564bb;
+    --namecolor: aliceblue;
+    --headinglines: yellow;
+    --boxborder: magenta;
+    --textcolor: white;
+    --hflinks: white;
+    --boxlinks: white;
+    --h2color: #2564bb;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--textcolor);
     margin: 0;
-    background-color:lightseagreen;
+    background-color:var(--background);
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: darkslategray;
+    background-color: var(--headfoot);
 }
 
 header h1 {
-    background-color: rgb(0, 81, 128);
+    background-color: var(--namebackground);
     margin: 0px;
     padding: 10px;
-    color: aliceblue;
+    color: var(--namecolor);
 }
 
 header ul li {
@@ -31,27 +45,27 @@ header ul li {
     text-decoration: underline;
 }
 
-a:link {
-    color: steelblue;
+header a:link {
+    color: var(--hflinks);
     text-decoration: none;
 }
 
-a:visited {
-    color: steelblue;
+header a:visited {
+    color: var(--hflinks);
     text-decoration: none;
 }
 
-a:hover {
+header a:hover {
     color: darkblue;
     text-decoration: underline;
 }
 
-a:active {
-    color: steelblue;
+header a:active {
+    color: var(--hflinks);
     text-decoration: underline;
 }
 
-img {
+.banner {
     width: 100%;
     height: 150px;
 }
@@ -66,7 +80,8 @@ img {
     flex: 20%;
     text-align: end;
     padding-right: 10px;
-    color: steelblue;
+    color: var(--h2color);
+    font-size: 200%;
 }
 
 .about p {
@@ -74,7 +89,7 @@ img {
     display: flex;
     flex-flow: row wrap;
     padding-left: 100px;
-    border-left: 5px solid blue;
+    border-left: 5px solid var(--headinglines);
 }
 
 .work {
@@ -87,7 +102,8 @@ img {
     flex: 20%;
     text-align: end;
     padding-right: 10px;
-    color: steelblue;
+    color: var(--h2color);
+    font-size: 200%;
 }
 
 .boxes {
@@ -96,8 +112,8 @@ img {
     display: flex;
     flex-flow: row wrap;
     padding-left: 100px;
-    border-left: 5px solid blue;
-    color: rgba(0, 255, 136, 0.658);
+    border-left: 5px solid var(--headinglines);
+    color: var(--textcolor);
 }
 
 .mainproject {
@@ -106,15 +122,15 @@ img {
     flex-grow: 2;
     background-image: url("/images/project1.jpg.jpg");
     background-size: cover;
-    border: 5px solid yellow;
+    border: 5px solid var(--boxborder);
     margin: 0 2% 1% 2%;
 }
 
 .contents {
-    width: 10%;
+    width: 100px;
     position: relative;
-    bottom: 10px;
-    background-color: yellow;
+    background-color: var(--boxborder);
+    line-height: 1;
 }
 
 .project2 {
@@ -123,7 +139,7 @@ img {
     margin: 0 1% 1% 2%;
     background-image: url("/images/project2.jpg.jpg");
     background-size: cover;
-    border: 5px solid yellow;
+    border: 5px solid var(--boxborder);
 }
 
 .project3 {
@@ -132,7 +148,7 @@ img {
     margin: 0 2% 1% 1%;
     background-image: url("/images/project3.jpg");
     background-size: cover;
-    border: 5px solid yellow;
+    border: 5px solid var(--boxborder);
 }
 
 .project4 {
@@ -141,7 +157,7 @@ img {
     margin: 0 1% 1% 2%;
     background-image: url("/images/project4.jpg");
     background-size: cover;
-    border: 5px solid yellow;
+    border: 5px solid var(--boxborder);
 }
 
 .project5 {
@@ -150,25 +166,96 @@ img {
     margin: 0 2% 1% 1%;
     background-image: url("/images/project5.jpg");
     background-size: cover;
-    border: 5px solid yellow;
+    border: 5px solid var(--boxborder);
+}
+
+.boxes a:link {
+    color: var(--boxlinks);
+    text-decoration: none;
+}
+
+.boxes a:visited {
+    color: var(--boxlinks);
+    text-decoration: none;
+}
+
+.boxes a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.boxes a:active {
+    color: var(--boxlinks);
+    text-decoration: underline;
+}
+
+.mainproject:hover{
+    filter: brightness(120%);
+}
+
+.project2:hover{
+    filter: brightness(120%);
+}
+
+.project3:hover{
+    filter: brightness(120%);
+}
+
+.project4:hover{
+    filter: brightness(120%);
+}
+
+.project5:hover{
+    filter: brightness(120%);
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 5%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: darkslategray;
+    flex-wrap: wrap;
+    margin: 5% 2% 5% 0;
 }
 
-footer ul li {
-    display: inline-flex;
+footer h2 {
+    flex: 20%;
+    text-align: end;
+    padding-right: 10px;
+    color: var(--h2color);
+    font-size: 200%;
+}
+
+footer ul {
+    flex: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 100px;
+    border-left: 5px solid var(--headinglines);
+    justify-content: space-evenly;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    color: steelblue;
     text-decoration: underline;
+}
+
+footer a:link {
+    color: var(--hflinks);
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: var(--hflinks);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+footer a:active {
+    color: var(--hflinks);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+    .boxes {
+        flex-direction: column;
+    }
 }
