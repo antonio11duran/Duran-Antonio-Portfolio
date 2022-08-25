@@ -120,7 +120,7 @@ header a:active {
     width: 100%;
     height: 40%;
     flex-grow: 2;
-    background-image: url("/images/project1.jpg.jpg");
+    background-image: url("images/project1.jpg.jpg");
     background-size: cover;
     border: 5px solid var(--boxborder);
     margin: 0 2% 1% 2%;
@@ -137,7 +137,7 @@ header a:active {
     flex-grow: 1;
     width: 40%;
     margin: 0 1% 1% 2%;
-    background-image: url("/images/project2.jpg.jpg");
+    background-image: url("images/project2.jpg.jpg");
     background-size: cover;
     border: 5px solid var(--boxborder);
 }
@@ -146,7 +146,7 @@ header a:active {
     flex-grow: 1;
     width: 40%;
     margin: 0 2% 1% 1%;
-    background-image: url("/images/project3.jpg");
+    background-image: url("images/project3.jpg");
     background-size: cover;
     border: 5px solid var(--boxborder);
 }
@@ -155,7 +155,7 @@ header a:active {
     flex-grow: 1;
     width: 40%;
     margin: 0 1% 1% 2%;
-    background-image: url("/images/project4.jpg");
+    background-image: url("images/project4.jpg");
     background-size: cover;
     border: 5px solid var(--boxborder);
 }
@@ -164,7 +164,7 @@ header a:active {
     flex-grow: 1;
     width: 40%;
     margin: 0 2% 1% 1%;
-    background-image: url("/images/project5.jpg");
+    background-image: url("images/project5.jpg");
     background-size: cover;
     border: 5px solid var(--boxborder);
 }
