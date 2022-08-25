@@ -8,15 +8,15 @@ Links are at the top of the page to help navigate and there are also links that 
 
 There are navigation links at the top of the page that can be used to navigate through the main 3 headers of the page. Another link goes to my resume. This link will work once my resume is finalized.
 
-![screenshot of navigation bar](/images/navbar.PNG)
+![screenshot of navigation bar](/assets/images/navbar.PNG)
 
 In the work section, each box has a link to go to the project listed. In the future, these will go to the actual applications of work, but since we have not completed any, I have only included link to my github repositories.
 
-![screenshot of work section boxes](/images/workboxes.PNG)
+![screenshot of work section boxes](/assets/images/workboxes.PNG)
 
 In the contact me section, my phone number is listed as well as other ways to get into contact with me. For email, github, twitter, and spotify, pressing the link will send you to a fake email/link.
 
-![screenshot of contact me bar](/images/contactme.PNG)
+![screenshot of contact me bar](/assets/images/contactme.PNG)
 
 ## Credits
 
