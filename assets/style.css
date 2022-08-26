@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* sets variable for colors used throughout the css */
 :root {
     --headfoot: black;
     --background: black;
@@ -15,6 +16,7 @@
     --h2color: #2564bb;
 }
 
+/* choose font and specific color for background and text */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--textcolor);
@@ -22,6 +24,7 @@ body {
     background-color:var(--background);
 }
 
+/* set the flex box for header and how the content is spaced */
 header {
     display: flex;
     justify-content: space-between;
@@ -29,6 +32,7 @@ header {
     background-color: var(--headfoot);
 }
 
+/* sets margins and padding for h1 header */
 header h1 {
     background-color: var(--namebackground);
     margin: 0px;
@@ -36,6 +40,7 @@ header h1 {
     color: var(--namecolor);
 }
 
+/* sets font and how list is displayed in the header */
 header ul li {
     display: inline-flex;
     list-style-type: none;
@@ -45,6 +50,7 @@ header ul li {
     text-decoration: underline;
 }
 
+/* these 4 dictate how the links in the nav bar list react to various inputs */
 header a:link {
     color: var(--hflinks);
     text-decoration: none;
@@ -65,17 +71,20 @@ header a:active {
     text-decoration: underline;
 }
 
+/* select the size of the banner */
 .banner {
     width: 100%;
     height: 150px;
 }
 
+/* selects margins for about element */
 .about {
     display: flex;
     flex-wrap: wrap;
     margin: 5% 2% 5% 0;
 }
 
+/* selects the margins and text of the h2 element */
 .about h2 {
     flex: 20%;
     text-align: end;
@@ -84,6 +93,7 @@ header a:active {
     font-size: 200%;
 }
 
+/* selects formatting for p element under the about element */
 .about p {
     flex: 80%;
     display: flex;
@@ -106,6 +116,7 @@ header a:active {
     font-size: 200%;
 }
 
+/* sets formatting in boxes element */
 .boxes {
     flex: 80%;
     text-align: left;
@@ -116,6 +127,7 @@ header a:active {
     color: var(--textcolor);
 }
 
+/* sets formatting for largest box*/
 .mainproject {
     width: 100%;
     height: 40%;
@@ -126,6 +138,7 @@ header a:active {
     margin: 0 2% 1% 2%;
 }
 
+/* sets formatting for text pox in the work boxes */
 .contents {
     width: 100px;
     position: relative;
@@ -169,6 +182,7 @@ header a:active {
     border: 5px solid var(--boxborder);
 }
 
+/* formatting for links in the boxes */
 .boxes a:link {
     color: var(--boxlinks);
     text-decoration: none;
@@ -189,6 +203,7 @@ header a:active {
     text-decoration: underline;
 }
 
+/* sets hover effect for the 5 boxes */
 .mainproject:hover{
     filter: brightness(120%);
 }
@@ -209,6 +224,7 @@ header a:active {
     filter: brightness(120%);
 }
 
+/* similar to header. sets formatting and list type information for contact me section */
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -234,6 +250,7 @@ footer ul {
     text-decoration: underline;
 }
 
+/* sets link formatting for links in contact me section */
 footer a:link {
     color: var(--hflinks);
     text-decoration: none;
@@ -254,6 +271,7 @@ footer a:active {
     text-decoration: underline;
 }
 
+/* sets a minimum width to change in box view on smaller screens */
 @media screen and (max-width: 800px) {
     .boxes {
         flex-direction: column;
