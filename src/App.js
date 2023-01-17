@@ -1,10 +1,12 @@
-// import css for app.js here
-// import component here
+import React from 'react';
+import PortfolioContainer from './components/PortfolioContainer';
 
 function App() {
   return (
     <div className="portfolio-app">
-      <Portfolio />
+      <PortfolioContainer />
     </div>
-  )
+  );
 }
+
+export default App;
