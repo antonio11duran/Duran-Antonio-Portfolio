@@ -6,9 +6,13 @@ export default function Resume() {
       <h2>Resume</h2>
       <p>You can download me resume here.</p>
       <h3>Front-end Proficiencies</h3>
-      <ul></ul>
+      <ul>
+        <li></li>
+      </ul>
       <h3>Back-end Proficiencies</h3>
-      <ul></ul>
+      <ul>
+        <li></li>
+      </ul>
     </div>
   );
 }
