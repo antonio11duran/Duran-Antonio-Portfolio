@@ -4,12 +4,12 @@ export default function Resume() {
   return (
     <div>
       <h2>Resume</h2>
-      <p>You can download me resume here.</p>
-      <h3>Front-end Proficiencies</h3>
+      <p>You can download my resume here.</p>
+      <h5>Front-end Proficiencies</h5>
       <ul>
         <li></li>
       </ul>
-      <h3>Back-end Proficiencies</h3>
+      <h5>Back-end Proficiencies</h5>
       <ul>
         <li></li>
       </ul>

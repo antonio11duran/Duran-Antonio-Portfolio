@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div class="card border-light w-50">
+    <div class="card border-light w-50 mx-auto">
       <h2>Contact Me</h2>
       <form>
         <div class="form-group">
