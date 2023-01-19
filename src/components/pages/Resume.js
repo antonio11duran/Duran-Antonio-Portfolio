@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div>
+    <div class="card border-0 w-50 mx-auto">
       <h2>Resume</h2>
       <p>
         You can download my resume{' '}
