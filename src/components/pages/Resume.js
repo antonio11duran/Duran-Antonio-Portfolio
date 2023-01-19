@@ -28,7 +28,6 @@ export default function Resume() {
         <li>MongoDB, Mongoose</li>
         <li>Node</li>
         <li>Express</li>
-        <li></li>
       </ul>
     </div>
   );
