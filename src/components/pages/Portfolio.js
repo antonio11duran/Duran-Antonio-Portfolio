@@ -4,6 +4,7 @@ export default function Portfolio() {
   return (
     <div>
       <h2>Portfolio Page</h2>
+      <br></br>
       <div class="card-deck">
         <div class="card bg-dark text-white">
           <img
