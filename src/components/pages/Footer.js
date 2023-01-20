@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return (
     <footer>
-      <div class="card border-0 w-50 mx-auto">
+      <div class="card border-0 w-25 mx-auto">
         <div class="icons">
           <a href="https://www.github.com/antonio11duran">
             <i class="fa-brands fa-github fa-2xl"></i>
