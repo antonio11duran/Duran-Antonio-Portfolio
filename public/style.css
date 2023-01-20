@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+
 footer {
   padding-top: 5%;
   padding-bottom: 5%;
@@ -5,5 +9,18 @@ footer {
 
 .icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.icons a {
+  color: black;
+}
+
+.icons a:hover {
+  opacity: 0.7;
+}
+
+.card-deck {
+  padding-left: 5%;
+  padding-right: 5%;
 }

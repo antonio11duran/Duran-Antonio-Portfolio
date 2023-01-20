@@ -23,7 +23,7 @@ export default function Portfolio() {
         </div>
         <div class="card bg-dark text-white">
           <img
-            src="./1159027_ORFF0J0.jpg"
+            src="./background-blurry-restaurant-shop-interior.jpg"
             class="card-img"
             alt="icons of different types of food"
           ></img>
@@ -71,7 +71,7 @@ export default function Portfolio() {
         </div>
         <div class="card bg-dark text-white">
           <img
-            src="./question-mark-sign-led-light-illustration.jpg"
+            src="./business-financial-concept-with-magnifying-glass-question-mark-yellow-background-flat-lay.jpg"
             class="card-img"
             alt="question mark over black background"
           ></img>
