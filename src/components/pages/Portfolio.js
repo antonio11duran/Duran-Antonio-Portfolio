@@ -115,10 +115,8 @@ export default function Portfolio() {
           ></img>
           <div class="card-img-overlay">
             <h5 class="card-title">
-              <a href="https://antonio11duran.github.io/weather-app/">
-                Weather App
-              </a>{' '}
-              <a href="https://github.com/antonio11duran/weather-app">
+              <a href="https://obscure-sands-38875.herokuapp.com/">PawPalz</a>{' '}
+              <a href="https://github.com/rarellano5280/PawPalz">
                 <i class="fa-brands fa-github fa-2xl"></i>
               </a>
             </h5>
