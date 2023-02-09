@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/Duran-Antonio-Portfolio/static/js/main.fd39c711.chunk.js",
-    "main.js.map": "/Duran-Antonio-Portfolio/static/js/main.fd39c711.chunk.js.map",
+    "main.js": "/Duran-Antonio-Portfolio/static/js/main.7b5ca524.chunk.js",
+    "main.js.map": "/Duran-Antonio-Portfolio/static/js/main.7b5ca524.chunk.js.map",
     "runtime-main.js": "/Duran-Antonio-Portfolio/static/js/runtime-main.8c9addef.js",
     "runtime-main.js.map": "/Duran-Antonio-Portfolio/static/js/runtime-main.8c9addef.js.map",
     "static/js/2.d732622c.chunk.js": "/Duran-Antonio-Portfolio/static/js/2.d732622c.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.8c9addef.js",
     "static/js/2.d732622c.chunk.js",
-    "static/js/main.fd39c711.chunk.js"
+    "static/js/main.7b5ca524.chunk.js"
   ]
 }
