@@ -1,0 +1,45 @@
+body {
+  overflow-x: hidden; /* Hide scrollbars */
+}
+
+footer {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons a {
+  color: black;
+}
+
+.icons a:hover {
+  opacity: 0.7;
+}
+
+.card-deck {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.card.bg-dark.text-white div:hover {
+  font-weight: bold;
+  color: black;
+  background-color: aliceblue;
+  opacity: 0.7;
+}
+
+.card.bg-dark.text-white a {
+  color: black;
+}
+
+.card.bg-dark.text-white a:hover {
+  opacity: 0.7;
+}
+
+.card-deck.text-center ul {
+  list-style: none;
+}
