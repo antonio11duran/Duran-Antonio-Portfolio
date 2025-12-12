@@ -22,11 +22,18 @@ export default function Portfolio() {
               </a>
             </h5>
             <p class="card-text">REST APIs</p>
+            <h5 class="card-title">XPLOR</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
           </div>
         </div>
         <div class="card bg-dark text-white">
           <img
             src="./background-blurry-restaurant-shop-interior.jpg"
+            src="./1159027_ORFF0J0.jpg"
             class="card-img"
             alt="icons of different types of food"
           ></img>
@@ -40,6 +47,12 @@ export default function Portfolio() {
               </a>
             </h5>
             <p class="card-text">MVC</p>
+            <h5 class="card-title">Raving Cravings</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
           </div>
         </div>
         <div class="card bg-dark text-white">
@@ -62,6 +75,15 @@ export default function Portfolio() {
         </div>
       </div>
       <br></br>
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+        </div>
+      </div>
       <div class="card-deck">
         <div class="card bg-dark text-white">
           <img
